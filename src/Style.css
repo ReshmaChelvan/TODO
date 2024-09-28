@@ -1,0 +1,194 @@
+#Background-Header {
+    background-color: #0A014F;
+}
+#text-design { 
+    font-family: 'Times New Roman', Times, serif;
+    animation-name: LogoDesign;
+    animation-duration: 2s;
+}
+
+.color-change { 
+    background-color: #001B2E !important;
+}
+
+#background-show { 
+    background-color: #9486FE;
+    height: 100vh;
+}
+#card-color { 
+    background-color:#2E294E ;
+    color: white;
+    font-size: large;
+}
+.remove-list {
+    padding: 5px;
+    list-style: none;
+}
+.button { 
+    background-color: #B7B5B3 !important;
+    color:whitesmoke !important;
+    font-size: large !important;
+}
+
+.button-two{
+    background-color:#141301 !important;
+    font-size: large !important;
+    color: whitesmoke !important;
+}
+
+#background-Todo { 
+    display: flex;
+    justify-content: center;
+    background-color: #23001E;
+}
+
+p { 
+    animation-name: labelDesign;
+    animation-duration: 2s;
+}
+
+input { 
+    animation-name: labelDesign;
+    animation-duration: 2s;
+}
+
+label { 
+    animation-name: lodesign;
+    animation-duration: 2s;
+}
+
+button { 
+    animation-name: button;
+    animation-duration: 2s;
+}
+
+h1 { 
+    animation-name: LogoImg;
+    animation-duration: 2s;
+}
+
+#row-id {
+    height: 100vh;
+    width: 100vh;
+}
+
+#text-color { 
+    color: #F4F4F9;
+}
+
+
+@keyframes LogoDesign { 
+    0% {
+     opacity: 0;
+     transform: translateY(-100px);
+    }
+    90% {
+      transform: translateY(10px);
+    }
+    100% {
+     opacity: 1;
+     transform: translateY(0);
+    }
+} 
+
+@keyframes labelDesign { 
+    0% {
+     opacity: 0;
+     transform: translateX(100px);
+    }
+    90% {
+      transform: translateX(-10px);
+    }
+    100% {
+     opacity: 1;
+     transform: translateX(0);
+    }
+} 
+
+@keyframes lodesign {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    90% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes button {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    90% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes LogoImg { 
+    0% { 
+     opacity: 0;
+    }
+    100% {
+     opacity: 1;
+    }
+}
+.Bg-filter { 
+    background: #9486FE !important;
+}
+
+#Animated-button  {
+    animation-name: AnimatedButton;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+}
+
+@keyframes AnimatedButton  {
+    0% { 
+        opacity: .2;
+        transform: translateY(10px);
+        background-color: #B7B5B3;
+        color: red;
+    }
+    50% { 
+        opacity: .3;
+    }
+
+    100% { 
+        opacity: 1;
+        transform:translateY(0) ;
+    }
+}
+
+#Button-Change { 
+    background-color: #F0544F !important;
+    animation-name: DoneButton;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes DoneButton  {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    100% { 
+        opacity: 1;
+        transform: translateY(0);
+        transform: translateX(0);
+    }
+}
